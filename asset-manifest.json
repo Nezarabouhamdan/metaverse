@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/metaverse/static/css/main.0091da49.css",
+    "main.js": "/metaverse/static/js/main.0d8f4932.js",
+    "static/js/787.82de9e9b.chunk.js": "/metaverse/static/js/787.82de9e9b.chunk.js",
+    "static/media/Group 48095504.png": "/metaverse/static/media/Group 48095504.dc483fb2b7d0e3e93d9b.png",
+    "static/media/MetaV _ Website.png": "/metaverse/static/media/MetaV _ Website.e78cade18290718582b2.png",
+    "static/media/Orbitron-SemiBold.ttf": "/metaverse/static/media/Orbitron-SemiBold.2fe39a1bf5fa6fb79e05.ttf",
+    "static/media/Orbitron-Bold.ttf": "/metaverse/static/media/Orbitron-Bold.94b1274ec52b43828a09.ttf",
+    "static/media/logo.svg": "/metaverse/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/metaverse/index.html",
+    "main.0091da49.css.map": "/metaverse/static/css/main.0091da49.css.map",
+    "main.0d8f4932.js.map": "/metaverse/static/js/main.0d8f4932.js.map",
+    "787.82de9e9b.chunk.js.map": "/metaverse/static/js/787.82de9e9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0091da49.css",
+    "static/js/main.0d8f4932.js"
+  ]
+}
