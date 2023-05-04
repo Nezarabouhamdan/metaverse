@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Orbitron Bold";
+  src: local("Orbitron Bold Regular"), local("Orbitron-Bold-Regular"),
+    url("Orbitron-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Orbitron SemiBold";
+  src: local("Orbitron SemiBold Regular"), local("Orbitron-SemiBold-Regular"),
+    url("Orbitron-SemiBold.ttf") format("truetype");
+  font-style: bold;
+}

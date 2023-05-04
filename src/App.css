@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.increment {
+  font-size: 30px;
+  color: white;
+
+  font-family: "Orbitron Bold";
+}
 
 .App-header {
   background-color: #282c34;
