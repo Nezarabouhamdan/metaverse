@@ -84,8 +84,9 @@ export const Head = styled(motion.div)`
   -webkit-text-fill-color: transparent;
   font-family: "Orbitron SemiBold";
   font-weight: 700;
-
-  margin-left: ${({ color }) => (color ? "-100px" : "0")};
+  @media screen and (max-width: 968px) {
+    margin-left: ${({ color }) => (color ? "-100px" : "0")};
+  }
 `;
 export const Head2 = styled(motion.div)`
   margin-top: 5px;

@@ -62,7 +62,7 @@ function Hero() {
               animate={animation}
             >
               Explore the future of<br></br>
-              <Row mobile="">
+              <Row mobile="s">
                 the<Head color="red">Meatverse</Head>{" "}
               </Row>
             </Head>
