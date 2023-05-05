@@ -43,15 +43,18 @@ function Hero() {
           transition={{ delay: 0.3, duration: 0.5 }}
           animate={animation}
         >
-          <Row margin="true"> MetaV</Row>
+          <Row mobile="s" margin="true">
+            {" "}
+            MetaV
+          </Row>
           <Row>
             <Links color="Gradient">Home</Links>
             <Links>Resourse</Links>
             <Links>Pricing</Links>
-            <Links>About us</Links>
+            <Links>About </Links>
           </Row>
         </Navbar>
-        <Row>
+        <Row mobile="s">
           <Textdiv>
             <Head
               initial={initial}
@@ -59,7 +62,7 @@ function Hero() {
               animate={animation}
             >
               Explore the future of<br></br>
-              <Row>
+              <Row mobile="">
                 the<Head color="red">Meatverse</Head>{" "}
               </Row>
             </Head>

@@ -12,10 +12,7 @@ export const Herosection = styled.div`
   align-content: left;
   align-items: left;
   @media screen and (max-width: 968px) {
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    height: 100%;
   }
 `;
 
@@ -25,6 +22,10 @@ export const Heroimg = styled.img`
   height: 100vh;
   position: absolute;
   z-index: -1;
+  @media screen and (max-width: 968px) {
+    width: 100vh;
+    height: 200vh;
+  }
 `;
 export const Navbar = styled(motion.div)`
   width: 100%;
@@ -35,12 +36,21 @@ export const Navbar = styled(motion.div)`
 
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 968px) {
+    width: 100vh;
+  }
 `;
 export const Row = styled(motion.div)`
   margin-left: ${({ margin }) => (margin ? "20px" : "0")};
 
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 968px) {
+    justify-content: ${({ mobile }) => (mobile ? "center" : "space-evenly")};
+
+    flex-direction: ${({ mobile }) => (mobile ? "column-reverse" : "row")};
+    width: 99vh;
+  }
 `;
 export const Links = styled(motion.h3)`
   margin: auto 20px;
@@ -59,6 +69,12 @@ width 47%;
 diplay:flex;
 margin:auto;
 flex-direction:column;
+@media screen and (max-width: 968px) {
+
+    margin-top: -125px;
+ 
+  width 100%;
+}
 `;
 export const Head = styled(motion.div)`
   font-size: 50px;
@@ -68,10 +84,17 @@ export const Head = styled(motion.div)`
   -webkit-text-fill-color: transparent;
   font-family: "Orbitron SemiBold";
   font-weight: 700;
+
+  margin-left: ${({ color }) => (color ? "-100px" : "0")};
 `;
 export const Head2 = styled(motion.div)`
   margin-top: 5px;
   font-size: 15px;
+  @media screen and (max-width: 968px) {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 150px;
+  }
 `;
 export const Button = styled(motion.div)`
   height: 50px;
@@ -84,7 +107,12 @@ export const Button = styled(motion.div)`
   margin-left: 10px;
   border-radius: 8px;
   font-family: "Orbitron SemiBold";
+  @media screen and (max-width: 968px) {
+    margin-top: 50px;
 
+    height: 80px;
+    width: 250px;
+  }
   background: ${({ color }) =>
     color ? "linear-gradient(to right,#D10ED1, #10A3DA);" : "none"};
 
@@ -119,8 +147,11 @@ width 40%;`;
 export const Image = styled.img`
 margin-top:15%;
 height:80%;
-width 70%;`;
-
+width 70%;
+@media screen and (max-width: 968px) {
+  width 100vh;
+  height:100vh;
+}`;
 export const Item = styled.div`
   width: 10vw;
   z-index: 1;
@@ -131,6 +162,7 @@ export const Item = styled.div`
   align-items: center;
   @media screen and (max-width: 968px) {
     height: 30vh;
+    margin-top: 25px;
   }
 `;
 
